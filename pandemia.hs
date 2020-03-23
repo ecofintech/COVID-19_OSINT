@@ -9,19 +9,21 @@ import Graphics.EasyPlot
 import System.Console.CmdArgs
 
 -- propagationList fact e tc = nub ( sort (map fromIntegral (map ceiling (map (\x-> (tc*fact^x)/100 ) [1..e])) ))
-propagationList fact e tc = nub . sort . map (\x-> fromIntegral ( ceiling ((tc*fact^x)/100) )) $ [1..e]
+propagationList fact e tc = nub . sort . map (\x->  fromIntegral ( ceiling ((tc*fact^x)/100) )) $ [1..e]
 
 est_covidp pc tc dm = map (\x -> div (x*pc*100) tc) [1..dm]
 
 est_covid = est_covidp
 
 
-toplotc d c = map (\x-> (x*d, c !! x)) [1 .. length c - 1]
+-- toplotc d c = map (\x-> (realToFrac $ x*d, log . realToFrac $ c !! x)) [1 .. length c - 1]
+toplotc d c = map (\x-> (realToFrac $ x*d,  realToFrac $ c !! x)) [1 .. length c - 1]
 
-plotcovid pdat banner =  plot X11 $ Data2D [Title banner,Style Points] [] pdat
 
-plotcovidpng pdat banner =  plot (PNG ("plot"++banner++".png")) $ Data2D [Title banner,Style Points] [] pdat
 
+plotcovid banner =  plot X11 . Data2D [Title banner,Style Points] []
+
+plotcovidpng banner =  plot (PNG ("plot"++banner++".png")) . Data2D [Title banner,Style Points] []
 
 -- n persons in contact, spread rate, recovered, in hospital, danger zone, dead, incubation cycles, incubation days
 
