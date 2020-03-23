@@ -1,0 +1,711 @@
+
+Evolucion del corona virus en terminos de divergencia
+
+https://nextstrain.org/ncov?l=clock
+
+Las proteinas que vemos en los graficos son mas parecidas a las sequencias de adn patentadas desde 2004 hasta abril de 2019 que a cualquier evolucion natural, cualquier evolucion antural contiene mutaciones como se esta viendo en el enlace anterior, el virus va sufriendo cambios conforme infecta a huespedes en ambientes diferentes, esto deja unos residuos de aminoacidos diferentes en cada sequencia en el tiempo, la variacion respecto al primer coronavirus reportado en formato fasta que podamos analizar, es mucho mas parecido en las patentes registradas, algunas de 2004 , y no a las versiones evolucionadas de 2018.
+
+
+Comparamos covid con una proteina de sars registrada en 2004
+
+./exonerate orf1ab2004.fasta covid
+
+C4 Alignment:
+------------
+         Query: AAP49011.4 orf1ab polyprotein [SARS coronavirus ZJ01]
+        Target: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+         Model: ungapped:protein2dna
+     Raw score: 217
+   Query range: 925 -> 989
+  Target range: 3034 -> 3226
+
+  926 : TyrProProAspGluGluGluGluAspAspAlaGluCysGluGluGluGluIleAspGluTh :  946
+        !:!  !|||   !!:|||!!:|||!!:!!:!.!!!:|||||||||||||||.!!!!:  !:!
+        PheTyrProProAspGluAspGluGluGluGlyAspCysGluGluGluGluPheGluProSe
+ 3035 : TTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATC : 3095
+
+  947 : rCysGluHisGluTyrGlyThrGluAspAspTyrGlnGlyLeuProLeuGluPheGlyAlaS :  967
+        !  !:!!:!!||||||||||||||||||||||||||||||  !||||||||||||||||||!
+        rThrGlnTyrGluTyrGlyThrGluAspAspTyrGlnGlyLysProLeuGluPheGlyAlaT
+ 3096 : AACTCAATATGAGTATGGTACTGAAGATGATTACCAAGGTAAACCTTTGGAATTTGGTGCCA : 3158
+
+  968 : erAlaGluThrValArgValGluGluGluGluGluGluAspTrpLeuAspAspThrThrGlu :  987
+        !!:!!!  .!!:!!!:!  !|||||||||:!!|||||||||||||||||||||  !!:!:!!
+        hrSerAlaAlaLeuGlnProGluGluGluGlnGluGluAspTrpLeuAspAspAspSerGln
+ 3159 : CTTCTGCTGCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGATAGTCAA : 3218
+
+  988 : GlnSer :  989
+        |||!!!
+        GlnThr
+ 3219 : CAAACT : 3226
+
+
+...
+
+
+
+  3896 : LeuSerMetGlnGlyAlaValAspIleAsnArgLeuCysGluGluMetLeuAspAsnArg :  3915
+         ||||||||||||||||||||||||||||||!:!|||||||||||||||||||||||||||
+         LeuSerMetGlnGlyAlaValAspIleAsnLysLeuCysGluGluMetLeuAspAsnArg
+ 12018 : CTTTCCATGCAGGGTGCTGTAGACATAAACAAGCTTTGTGAAGAAATGCTGGACAACAGG : 12077
+
+  3916 : AlaThrLeuGlnAlaIleAlaSerGluPheSerSerLeuProSerTyrAlaAlaTyrAla :  3935
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||
+         AlaThrLeuGlnAlaIleAlaSerGluPheSerSerLeuProSerTyrAlaAlaPheAla
+ 12078 : GCAACCTTACAAGCTATAGCCTCAGAGTTTAGTTCCCTTCCATCATATGCAGCTTTTGCT : 12137
+
+  3936 : ThrAlaGlnGluAlaTyrGluGlnAlaValAlaAsnGlyAspSerGluValValLeuLys :  3955
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ThrAlaGlnGluAlaTyrGluGlnAlaValAlaAsnGlyAspSerGluValValLeuLys
+ 12138 : ACTGCTCAAGAAGCTTATGAGCAGGCTGTTGCTAATGGTGATTCTGAAGTTGTTCTTAAA : 12197
+
+  3956 : LysLeuLysLysSerLeuAsnValAlaLysSerGluPheAspArgAspAlaAlaMetGln :  3975
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         LysLeuLysLysSerLeuAsnValAlaLysSerGluPheAspArgAspAlaAlaMetGln
+ 12198 : AAGTTGAAGAAGTCTTTGAATGTGGCTAAATCTGAATTTGACCGTGATGCAGCCATGCAA : 12257
+
+  3976 : ArgLysLeuGluLysMetAlaAspGlnAlaMetThrGlnMetTyrLysGlnAlaArgSer :  3995
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         ArgLysLeuGluLysMetAlaAspGlnAlaMetThrGlnMetTyrLysGlnAlaArgSer
+ 12258 : CGTAAGTTGGAAAAGATGGCTGATCAAGCTATGACCCAAATGTATAAACAGGCTAGATCT : 12317
+
+  3996 : GluAspLysArgAlaLysValThrSerAlaMetGlnThrMetLeuPheThrMetLeuArg :  4015
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+         GluAspLysArgAlaLysValThrSerAlaMetGlnThrMetLeuPheThrMetLeuArg
+ 12318 : GAGGACAAGAGGGCAAAAGTTACTAGTGCTATGCAGACAATGCTTTTCACTATGCTTAGA : 12377
+
+
+
+trozos identicos con la de 2004
+
+
+lo comparamos en con un betacorona virus de 2018 evolucionado
+
+./exonerate orf1ab2004.fasta betacorona2018.fasta
+
+C4 Alignment:
+------------
+         Query: AAP49011.4 orf1ab polyprotein [SARS coronavirus ZJ01]
+        Target: NC_019843.3 Middle East respiratory syndrome coronavirus, complete genome
+         Model: ungapped:protein2dna
+     Raw score: 107
+   Query range: 1663 -> 1725
+  Target range: 5093 -> 5279
+
+ 1664 : GluValLysPheAsnAlaProAlaLeuGlnGluAlaTyrTyrArgAlaArgAlaGlyAspAl : 1684
+        !!::!!||||||  !  !||||||||||||.!.|||!:!   !:!  !!:!!.!||||||:!
+        AspIleLysPheValIleProAlaLeuGlnHisAlaPheMetLysHisLysGlyGlyAspSe
+ 5094 : GACATTAAATTTGTTATACCTGCTCTACAGCATGCATTTATGAAACATAAGGGCGGTGATTC : 5154
+
+ 1685 : aAlaAsnPheCysAlaLeuIleLeuAlaTyrSerAsnLysThrValGlyGluLeuGlyAspV : 1705
+        !.!!:!!|||   |||||||||:!!||||||.!!|||   ||| !!|||!  ! !! !|||!
+        rThrAspPheIleAlaLeuIleMetAlaTyrGlyAsnCysThrPheGlyAlaProAspAspA
+ 5155 : AACTGACTTCATAGCCCTCATTATGGCTTATGGCAATTGCACATTTGGTGCTCCAGATGATG : 5217
+
+ 1706 : alArgGluThrMetThrHisLeuLeuGlnHisAlaAsnLeuGluSerAlaLysArgValLeu : 1725
+        .!  !..!  !:!:  !  !:!!|||  ! ! |||.!.|||   !!!:!!  !|||:!!:!!
+        laSerArgLeuLeuHisThrValLeuAlaLysAlaGluLeuCysCysSerAlaArgMetVal
+ 5218 : CCTCTCGGTTACTTCATACCGTGCTTGCAAAGGCTGAGTTATGCTGTTCTGCACGCATGGTT : 5277
+
+
+comparamos betacorona virus de 20018 con covid
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: NC_019843.3 Middle East respiratory syndrome coronavirus, complete genome
+         Model: ungapped:dna2dna
+     Raw score: 147
+   Query range: 19027 -> 19105
+  Target range: 18989 -> 19067
+
+ 19028 : ACGACATTGGTAACCCTAAAGCTATTAAGTGTGTACCTCAAGCTGATGTAGAATGGAAGT : 19087
+         | || ||||| || |||||||  |||     |||   | |  |||  || || ||| | |
+ 18990 : ATGATATTGGCAATCCTAAAGGAATTCCTATTGTTGATGACCCTGTGGTTGATTGGCATT : 19049
+
+ 19088 : TCTATGATGCACAGCCTT : 19105
+           | |||||||||||| |
+ 19050 : ATTTTGATGCACAGCCCT : 19067
+
+vulgar: NC_045512.2 19027 19105 + NC_019843.3 18989 19067 + 147 M 78 78
+
+
+No podemos encontrar ningun patron exactamente igual en la evolucion de 2018 de betacoronavirus.
+
+Como se puede observar el covid parece venir de la proteina de 2004 y no de los ancestros mas recientes.
+
+Eso indica una posible manipulacion, ya que es descendiente de la version de 2004 y no de las de 2018.
+
+
+
+Muchos coronavirus son registrados entre 2018 y 2019 , este en particular es curioso porque si lo comparamos con otros virus comparte trozos de secuencia con el VIH
+
+
+ ./exonerate coronamodified.fasta hiv.fasta 
+Command line: [./exonerate coronamodified.fasta hiv.fasta]
+Hostname: [syudaiwqmdx.znmoczi]
+
+C4 Alignment:
+------------
+         Query: FV537210.1 Modified Microbial Nucleic Acid
+        Target: NC_001802.1 Human immunodeficiency virus 1, complete genome:[revcomp]
+         Model: ungapped:dna2dna
+     Raw score: 108
+   Query range: 23673 -> 23736
+  Target range: 4440 -> 4377
+
+ 23674 : TTATTGAATGTGTTAATTTGTTTTTTTAATATGGTAGTTTTTGTATATAATTAAATTGTG : 23733
+         || |  | | |  |||||||||||| ||||    |||||| | | | |  |   ||| ||
+  4440 : TTTTGAATTTTTGTAATTTGTTTTTGTAATTCTTTAGTTTGTATGTCTGTTGCTATTATG :  4381
+
+ 23734 : TAT : 23736
+         | |
+  4380 : TCT :  4378
+
+vulgar: FV537210.1 23673 23736 + NC_001802.1 4440 4377 - 108 M 63 63
+
+C4 Alignment:
+------------
+         Query: FV537210.1 Modified Microbial Nucleic Acid
+        Target: NC_001802.1 Human immunodeficiency virus 1, complete genome:[revcomp]
+         Model: ungapped:dna2dna
+     Raw score: 103
+   Query range: 6870 -> 6950
+  Target range: 7744 -> 7664
+
+ 6871 : TTGTTTATAATTGTTATGTGGTTATTGTTGTTAAGTATTTGTTTAGGTTTTTTAATTTGTGT : 6932
+        ||||| ||  || |  ||  | | |||   ||    | ||    ||  | || |  ||||||
+ 7744 : TTGTTCATTCTTTTCTTGCTGGTTTTGCGATTCTTCAATTAAGGAGTGTATTAAGCTTGTGT : 7683
+
+ 6933 : AATTGTTGTTTTTGGTGT : 6950
+        |||||||  |||   |||
+ 7682 : AATTGTTAATTTCTCTGT : 7665
+
+vulgar: FV537210.1 6870 6950 + NC_001802.1 7744 7664 - 103 M 80 80
+-- completed exonerate analysis
+
+
+Fuente de datos https://www.ncbi.nlm.nih.gov/nuccore/
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------- MAS PROTEINAS ANTIGUAS SIN APENAS MODIFICACION EN ALGUNAS DE SUS CADENAS
+
+
+proteina e de 2004
+
+./exonerate covid e2004.fasta 
+Command line: [./exonerate covid e2004.fasta]
+Hostname: [syudaiwqmdx.znmoczi]
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: AAP82979.2 E [SARS coronavirus ShanghaiQXC1]
+         Model: ungapped:dna2protein
+     Raw score: 325
+   Query range: 26244 -> 26451
+  Target range: 0 -> 69
+
+ 26245 : ATGTACTCATTCGTTTCGGAAGAGACAGGTACGTTAATAGTTAATAGCGTACTTCTTTTT : 26302
+         MetTyrSerPheValSerGluGluThrGlyThrLeuIleValAsnSerValLeuLeuPhe
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+     1 : MetTyrSerPheValSerGluGluThrGlyThrLeuIleValAsnSerValLeuLeuPhe :    20
+
+ 26303 : CTTGCTTTCGTGGTATTCTTGCTAGTTACACTAGCCATCCTTACTGCGCTTCGATTGTGT : 26362
+         LeuAlaPheValValPheLeuLeuValThrLeuAlaIleLeuThrAlaLeuArgLeuCys
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    21 : LeuAlaPheValValPheLeuLeuValThrLeuAlaIleLeuThrAlaLeuArgLeuCys :    40
+
+ 26363 : GCGTACTGCTGCAATATTGTTAACGTGAGTCTTGTAAAACCTTCTTTTTACGTTTACTCT : 26422
+         AlaTyrCysCysAsnIleValAsnValSerLeuValLysProSerPheTyrValTyrSer
+         ||||||||||||||||||||||||||||||||||||||||||:!! !!||||||||||||
+    41 : AlaTyrCysCysAsnIleValAsnValSerLeuValLysProThrValTyrValTyrSer :    60
+
+ 26423 : CGTGTTAAAAATCTGAATTCTTCTAGA : 26451
+         ArgValLysAsnLeuAsnSerSerArg
+         ||||||||||||||||||||||||..!
+    61 : ArgValLysAsnLeuAsnSerSerGlu :    69
+
+vulgar: NC_045512.2 26244 26451 + AAP82979.2 0 69 . 325 M 207 69
+-- completed exonerate analysis
+
+
+proteina M de 2004
+
+
+./exonerate covid m2004.fasta 
+Command line: [./exonerate covid m2004.fasta]
+Hostname: [syudaiwqmdx.znmoczi]
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: AAR86779.1 M [SARS coronavirus ShanghaiQXC2]
+         Model: ungapped:dna2protein
+     Raw score: 1047
+   Query range: 26531 -> 27188
+  Target range: 2 -> 221
+
+ 26532 : TCCAACGGTACTATTACCGTTGAAGAGCTTAAAAAGCTCCTTGAACAATGGAACCTAGTA : 26589
+         SerAsnGlyThrIleThrValGluGluLeuLysLysLeuLeuGluGlnTrpAsnLeuVal
+         ..!||||||||||||||||||||||||||||||:!!||||||||||||||||||||||||
+     3 : AspAsnGlyThrIleThrValGluGluLeuLysGlnLeuLeuGluGlnTrpAsnLeuVal :    22
+
+ 26590 : ATAGGTTTCCTATTCCTTACATGGATTTGTCTTCTACAATTTGCCTATGCCAACAGGAAT : 26649
+         IleGlyPheLeuPheLeuThrTrpIleCysLeuLeuGlnPheAlaTyrAlaAsnArgAsn
+         ||||||||||||||||||.!!||||||   ||||||||||||||||||:!!|||||||||
+    23 : IleGlyPheLeuPheLeuAlaTrpIleMetLeuLeuGlnPheAlaTyrSerAsnArgAsn :    42
+
+ 26650 : AGGTTTTTGTATATAATTAAGTTAATTTTCCTCTGGCTGTTATGGCCAGTAACTTTAGCT : 26709
+         ArgPheLeuTyrIleIleLysLeuIlePheLeuTrpLeuLeuTrpProValThrLeuAla
+         ||||||||||||||||||||||||:!!|||||||||||||||||||||||||||||||||
+    43 : ArgPheLeuTyrIleIleLysLeuValPheLeuTrpLeuLeuTrpProValThrLeuAla :    62
+
+ 26710 : TGTTTTGTGCTTGCTGCTGTTTACAGAATAAATTGGATCACCGGTGGAATTGCTATCGCA : 26769
+         CysPheValLeuAlaAlaValTyrArgIleAsnTrpIleThrGlyGlyIleAlaIleAla
+         ||||||||||||||||||||||||||||||||||||:!!|||||||||||||||||||||
+    63 : CysPheValLeuAlaAlaValTyrArgIleAsnTrpValThrGlyGlyIleAlaIleAla :    82
+
+ 26770 : ATGGCTTGTCTTGTAGGCTTGATGTGGCTCAGCTACTTCATTGCTTCTTTCAGACTGTTT : 26829
+         MetAlaCysLeuValGlyLeuMetTrpLeuSerTyrPheIleAlaSerPheArgLeuPhe
+         |||||||||:!!|||||||||||||||||||||||||||:!!||||||||||||||||||
+    83 : MetAlaCysIleValGlyLeuMetTrpLeuSerTyrPheValAlaSerPheArgLeuPhe :   102
+
+ 26830 : GCGCGTACGCGTTCCATGTGGTCATTCAATCCAGAAACTAACATTCTTCTCAACGTGCCA : 26889
+         AlaArgThrArgSerMetTrpSerPheAsnProGluThrAsnIleLeuLeuAsnValPro
+         ||||||||||||||||||||||||||||||||||||||||||||||||! !|||||||||
+   103 : AlaArgThrArgSerMetTrpSerPheAsnProGluThrAsnIleLeuProAsnValPro :   122
+
+ 26890 : CTCCATGGCACTATTCTGACCAGACCGCTTCTAGAAAGTGAACTCGTAATCGGAGCTGTG : 26949
+         LeuHisGlyThrIleLeuThrArgProLeuLeuGluSerGluLeuValIleGlyAlaVal
+         |||!.!|||||||||:!!||||||||||||:!:|||||||||||||||||||||||||||
+   123 : LeuArgGlyThrIleValThrArgProLeuMetGluSerGluLeuValIleGlyAlaVal :   142
+
+ 26950 : ATCCTTCGTGGACATCTTCGTATTGCTGGACACCATCTAGGACGCTGTGACATCAAGGAC : 27009
+         IleLeuArgGlyHisLeuArgIleAlaGlyHisHisLeuGlyArgCysAspIleLysAsp
+         |||:!!|||||||||||||||!!:|||||||||  !||||||||||||||||||||||||
+   143 : IleIleArgGlyHisLeuArgMetAlaGlyHisSerLeuGlyArgCysAspIleLysAsp :   162
+
+ 27010 : CTGCCTAAAGAAATCACTGTTGCTACATCACGAACGCTTTCTTATTACAAATTGGGAGCT : 27069
+         LeuProLysGluIleThrValAlaThrSerArgThrLeuSerTyrTyrLysLeuGlyAla
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   163 : LeuProLysGluIleThrValAlaThrSerArgThrLeuSerTyrTyrLysLeuGlyAla :   182
+
+ 27070 : TCGCAGCGTGTAGCAGGTGACTCAGGTTTTGCTGCATACAGTCGCTACAGGATTGGCAAC : 27129
+         SerGlnArgValAlaGlyAspSerGlyPheAlaAlaTyrSerArgTyrArgIleGlyAsn
+         ||||||||||||!.!  !|||||||||||||||||||||!:!||||||||||||||||||
+   183 : SerGlnArgValGlyThrAspSerGlyPheAlaAlaTyrAsnArgTyrArgIleGlyAsn :   202
+
+ 27130 : TATAAATTAAACACAGACCATTCCAGTAGCAGTGACAATATTGCTTTGCTTGTACAG : 27188
+         TyrLysLeuAsnThrAspHisSerSerSerSerAspAsnIleAlaLeuLeuValGln
+         |||||||||||||||||||||:!!.!!|||!:!||||||||||||||||||||||||
+   203 : TyrLysLeuAsnThrAspHisAlaGlySerAsnAspAsnIleAlaLeuLeuValGln :   221
+
+
+
+
+proteina S de 2006
+
+./exonerate covid s2006sars.fasta 
+Command line: [./exonerate covid s2006sars.fasta]
+Hostname: [syudaiwqmdx.znmoczi]
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 2831
+   Query range: 23614 -> 25381
+  Target range: 666 -> 1255
+
+ 23615 : CGTAGTGTAGCTAGTCAATCCATCATTGCCTACACTATGTCACTTGGTGCAGAAAATTCA : 23672
+         ArgSerValAlaSerGlnSerIleIleAlaTyrThrMetSerLeuGlyAlaGluAsnSer
+         ||||||..!:!!...:!!||||||:!!||||||||||||||||||||||||!!:!:!|||
+   667 : ArgSerThrSerGlnLysSerIleValAlaTyrThrMetSerLeuGlyAlaAspSerSer :   686
+
+ 23673 : GTTGCTTACTCTAATAACTCTATTGCCATACCCACAAATTTTACTATTAGTGTTACCACA : 23732
+         ValAlaTyrSerAsnAsnSerIleAlaIleProThrAsnPheThrIleSerValThrThr
+         :!!|||||||||||||||:!!|||||||||||||||||||||!!!||||||:!!||||||
+   687 : IleAlaTyrSerAsnAsnThrIleAlaIleProThrAsnPheSerIleSerIleThrThr :   706
+
+ 23733 : GAAATTCTACCAGTGTCTATGACCAAGACATCAGTAGATTGTACAATGTACATTTGTGGT : 23792
+         GluIleLeuProValSerMetThrLysThrSerValAspCysThrMetTyrIleCysGly
+         |||:!!:!:||||||||||||.!!||||||||||||||||||!..|||||||||||||||
+   707 : GluValMetProValSerMetAlaLysThrSerValAspCysAsnMetTyrIleCysGly :   726
+
+ 23793 : GATTCAACTGAATGCAGCAATCTTTTGTTGCAATATGGCAGTTTTTGTACACAATTAAAC : 23852
+         AspSerThrGluCysSerAsnLeuLeuLeuGlnTyrGlySerPheCysThrGlnLeuAsn
+         |||||||||||||||::!||||||||||||||||||||||||||||||||||||||||||
+   727 : AspSerThrGluCysAlaAsnLeuLeuLeuGlnTyrGlySerPheCysThrGlnLeuAsn :   746
+
+ 23853 : CGTGCTTTAACTGGAATAGCTGTTGAACAAGACAAAAACACCCAAGAAGTTTTTGCACAA : 23912
+         ArgAlaLeuThrGlyIleAlaValGluGlnAspLysAsnThrGlnGluValPheAlaGln
+         |||||||||!!!|||||||||!.!|||||||||!:!||||||!:!|||||||||||||||
+   747 : ArgAlaLeuSerGlyIleAlaAlaGluGlnAspArgAsnThrArgGluValPheAlaGln :   766
+
+ 23913 : GTCAAACAAATTTACAAAACACCACCAATTAAAGATTTTGGTGGTTTTAATTTTTCACAA : 23972
+         ValLysGlnIleTyrLysThrProProIleLysAspPheGlyGlyPheAsnPheSerGln
+         |||||||||!!:|||||||||||| !!:!!||| !!||||||||||||||||||||||||
+   767 : ValLysGlnMetTyrLysThrProThrLeuLysTyrPheGlyGlyPheAsnPheSerGln :   786
+
+ 23973 : ATATTACCAGATCCATCAAAACCAAGCAAGAGGTCATTTATTGAAGATCTACTTTTCAAC : 24032
+         IleLeuProAspProSerLysProSerLysArgSerPheIleGluAspLeuLeuPheAsn
+         |||||||||||||||! !||||||!:!|||||||||||||||||||||||||||||||||
+   787 : IleLeuProAspProLeuLysProThrLysArgSerPheIleGluAspLeuLeuPheAsn :   806
+
+ 24033 : AAAGTGACACTTGCAGATGCTGGCTTCATCAAACAATATGGTGATTGCCTTGGTGATATT : 24092
+         LysValThrLeuAlaAspAlaGlyPheIleLysGlnTyrGlyAspCysLeuGlyAspIle
+         |||||||||||||||||||||||||||!!:||||||||||||!!:|||||||||||||||
+   807 : LysValThrLeuAlaAspAlaGlyPheMetLysGlnTyrGlyGluCysLeuGlyAspIle :   826
+
+ 24093 : GCTGCTAGAGACCTCATTTGTGCACAAAAGTTTAACGGCCTTACTGTTTTGCCACCTTTG : 24152
+         AlaAlaArgAspLeuIleCysAlaGlnLysPheAsnGlyLeuThrValLeuProProLeu
+           !|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   827 : AsnAlaArgAspLeuIleCysAlaGlnLysPheAsnGlyLeuThrValLeuProProLeu :   846
+
+ 24153 : CTCACAGATGAAATGATTGCTCAATACACTTCTGCACTGTTAGCGGGTACAATCACTTCT : 24212
+         LeuThrAspGluMetIleAlaGlnTyrThrSerAlaLeuLeuAlaGlyThrIleThrSer
+         |||||||||!!:|||||||||  !||||||:!!||||||:!!:!!||||||  !|||:!!
+   847 : LeuThrAspAspMetIleAlaAlaTyrThrAlaAlaLeuValSerGlyThrAlaThrAla :   866
+
+ 24213 : GGTTGGACCTTTGGTGCAGGTGCTGCATTACAAATACCATTTGCTATGCAAATGGCTTAT : 24272
+         GlyTrpThrPheGlyAlaGlyAlaAlaLeuGlnIleProPheAlaMetGlnMetAlaTyr
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   867 : GlyTrpThrPheGlyAlaGlyAlaAlaLeuGlnIleProPheAlaMetGlnMetAlaTyr :   886
+
+ 24273 : AGGTTTAATGGTATTGGAGTTACACAGAATGTTCTCTATGAGAACCAAAAATTGATTGCC : 24332
+         ArgPheAsnGlyIleGlyValThrGlnAsnValLeuTyrGluAsnGlnLysLeuIleAla
+         |||||||||||||||||||||||||||||||||||||||||||||||||||  !||||||
+   887 : ArgPheAsnGlyIleGlyValThrGlnAsnValLeuTyrGluAsnGlnLysGlnIleAla :   906
+
+ 24333 : AACCAATTTAATAGTGCTATTGGCAAAATTCAAGACTCACTTTCTTCCACAGCAAGTGCA : 24392
+         AsnGlnPheAsnSerAlaIleGlyLysIleGlnAspSerLeuSerSerThrAlaSerAla
+         ||||||||||||!..||||||.!!:!!||||||!!:||||||:!!:!!|||:!!!:!|||
+   907 : AsnGlnPheAsnLysAlaIleSerGlnIleGlnGluSerLeuThrThrThrSerThrAla :   926
+
+ 24393 : CTTGGAAAACTTCAAGATGTGGTCAACCAAAATGCACAAGCTTTAAACACGCTTGTTAAA : 24452
+         LeuGlyLysLeuGlnAspValValAsnGlnAsnAlaGlnAlaLeuAsnThrLeuValLys
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   927 : LeuGlyLysLeuGlnAspValValAsnGlnAsnAlaGlnAlaLeuAsnThrLeuValLys :   946
+
+ 24453 : CAACTTAGCTCCAATTTTGGTGCAATTTCAAGTGTTTTAAATGATATCCTTTCACGTCTT : 24512
+         GlnLeuSerSerAsnPheGlyAlaIleSerSerValLeuAsnAspIleLeuSerArgLeu
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   947 : GlnLeuSerSerAsnPheGlyAlaIleSerSerValLeuAsnAspIleLeuSerArgLeu :   966
+
+ 24513 : GACAAAGTTGAGGCTGAAGTGCAAATTGATAGGTTGATCACAGGCAGACTTCAAAGTTTG : 24572
+         AspLysValGluAlaGluValGlnIleAspArgLeuIleThrGlyArgLeuGlnSerLeu
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   967 : AspLysValGluAlaGluValGlnIleAspArgLeuIleThrGlyArgLeuGlnSerLeu :   986
+
+ 24573 : CAGACATATGTGACTCAACAATTAATTAGAGCTGCAGAAATCAGAGCTTCTGCTAATCTT : 24632
+         GlnThrTyrValThrGlnGlnLeuIleArgAlaAlaGluIleArgAlaSerAlaAsnLeu
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   987 : GlnThrTyrValThrGlnGlnLeuIleArgAlaAlaGluIleArgAlaSerAlaAsnLeu :  1006
+
+ 24633 : GCTGCTACTAAAATGTCAGAGTGTGTACTTGGACAATCAAAAAGAGTTGATTTTTGTGGA : 24692
+         AlaAlaThrLysMetSerGluCysValLeuGlyGlnSerLysArgValAspPheCysGly
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  1007 : AlaAlaThrLysMetSerGluCysValLeuGlyGlnSerLysArgValAspPheCysGly :  1026
+
+ 24693 : AAGGGCTATCATCTTATGTCCTTCCCTCAGTCAGCACCTCATGGTGTAGTCTTCTTGCAT : 24752
+         LysGlyTyrHisLeuMetSerPheProGlnSerAlaProHisGlyValValPheLeuHis
+         ||||||||||||||||||||||||||||||:!!|||||||||||||||||||||||||||
+  1027 : LysGlyTyrHisLeuMetSerPheProGlnAlaAlaProHisGlyValValPheLeuHis :  1046
+
+ 24753 : GTGACTTATGTCCCTGCACAAGAAAAGAACTTCACAACTGCTCCTGCCATTTGTCATGAT : 24812
+         ValThrTyrValProAlaGlnGluLysAsnPheThrThrAlaProAlaIleCysHisAsp
+         |||||||||||||||:!!||||||!:!||||||||||||||||||||||||||||||!!:
+  1047 : ValThrTyrValProSerGlnGluArgAsnPheThrThrAlaProAlaIleCysHisGlu :  1066
+
+ 24813 : GGAAAAGCACACTTTCCTCGTGAAGGTGTCTTTGTTTCAAATGGCACACACTGGTTTGTA : 24872
+         GlyLysAlaHisPheProArgGluGlyValPheValSerAsnGlyThrHisTrpPheVal
+         |||||||||:!!||||||||||||||||||||||||!  |||||||||  !||||||:!!
+  1067 : GlyLysAlaTyrPheProArgGluGlyValPheValPheAsnGlyThrSerTrpPheIle :  1086
+
+ 24873 : ACACAAAGGAATTTTTATGAACCACAAATCATTACTACAGACAACACATTTGTGTCTGGT : 24932
+         ThrGlnArgAsnPheTyrGluProGlnIleIleThrThrAspAsnThrPheValSerGly
+         |||||||||||||||!:!..!|||||||||||||||||||||||||||||||||||||||
+  1087 : ThrGlnArgAsnPhePheSerProGlnIleIleThrThrAspAsnThrPheValSerGly :  1106
+
+ 24933 : AACTGTGATGTTGTAATAGGAATTGTCAACAACACAGTTTATGATCCTTTGCAACCTGAA : 24992
+         AsnCysAspValValIleGlyIleValAsnAsnThrValTyrAspProLeuGlnProGlu
+         ||||||||||||||||||||||||:!!|||||||||||||||||||||||||||||||||
+  1107 : AsnCysAspValValIleGlyIleIleAsnAsnThrValTyrAspProLeuGlnProGlu :  1126
+
+ 24993 : TTAGACTCATTCAAGGAGGAGTTAGATAAATATTTTAAGAATCATACATCACCAGATGTT : 25052
+         LeuAspSerPheLysGluGluLeuAspLysTyrPheLysAsnHisThrSerProAspVal
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  1127 : LeuAspSerPheLysGluGluLeuAspLysTyrPheLysAsnHisThrSerProAspVal :  1146
+
+ 25053 : GATTTAGGTGACATCTCTGGCATTAATGCTTCAGTTGTAAACATTCAAAAAGAAATTGAC : 25112
+         AspLeuGlyAspIleSerGlyIleAsnAlaSerValValAsnIleGlnLysGluIleAsp
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  1147 : AspLeuGlyAspIleSerGlyIleAsnAlaSerValValAsnIleGlnLysGluIleAsp :  1166
+
+ 25113 : CGCCTCAATGAGGTTGCCAAGAATTTAAATGAATCTCTCATCGATCTCCAAGAACTTGGA : 25172
+         ArgLeuAsnGluValAlaLysAsnLeuAsnGluSerLeuIleAspLeuGlnGluLeuGly
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  1167 : ArgLeuAsnGluValAlaLysAsnLeuAsnGluSerLeuIleAspLeuGlnGluLeuGly :  1186
+
+ 25173 : AAGTATGAGCAGTATATAAAATGGCCATGGTACATTTGGCTAGGTTTTATAGCTGGCTTG : 25232
+         LysTyrGluGlnTyrIleLysTrpProTrpTyrIleTrpLeuGlyPheIleAlaGlyLeu
+         |||||||||||||||||||||||||||||||||:!!||||||||||||||||||||||||
+  1187 : LysTyrGluGlnTyrIleLysTrpProTrpTyrValTrpLeuGlyPheIleAlaGlyLeu :  1206
+
+ 25233 : ATTGCCATAGTAATGGTGACAATTATGCTTTGCTGTATGACCAGTTGCTGTAGTTGTCTC : 25292
+         IleAlaIleValMetValThrIleMetLeuCysCysMetThrSerCysCysSerCysLeu
+         ||||||||||||||||||||||||:!!|||||||||||||||||||||||||||||||||
+  1207 : IleAlaIleValMetValThrIleLeuLeuCysCysMetThrSerCysCysSerCysLeu :  1226
+
+ 25293 : AAGGGCTGTTGTTCTTGTGGATCCTGCTGCAAATTTGATGAAGACGACTCTGAGCCAGTG : 25352
+         LysGlyCysCysSerCysGlySerCysCysLysPheAspGluAspAspSerGluProVal
+         ||||||..!|||||||||||||||||||||||||||||||||||||||||||||||||||
+  1227 : LysGlyAlaCysSerCysGlySerCysCysLysPheAspGluAspAspSerGluProVal :  1246
+
+ 25353 : CTCAAAGGAGTCAAATTACATTACACA : 25381
+         LeuLysGlyValLysLeuHisTyrThr
+         |||||||||||||||||||||||||||
+  1247 : LeuLysGlyValLysLeuHisTyrThr :  1255
+
+vulgar: NC_045512.2 23614 25381 + BAC81404.1 666 1255 . 2831 M 1767 589
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 918
+   Query range: 22333 -> 23005
+  Target range: 244 -> 468
+
+ 22334 : TGGACAGCTGGTGCTGCAGCTTATTATGTGGGTTATCTTCAACCTAGGACTTTTCTATTA : 22391
+         TrpThrAlaGlyAlaAlaAlaTyrTyrValGlyTyrLeuGlnProArgThrPheLeuLeu
+         |||  !.!!.!!||||||||||||!:!||||||||||||:!!|||! !||||||:!:|||
+   245 : TrpGlyThrSerAlaAlaAlaTyrPheValGlyTyrLeuLysProThrThrPheMetLeu :   264
+
+ 22392 : AAATATAATGAAAATGGAACCATTACAGATGCTGTAGACTGTGCACTTGACCCTCTCTCA : 22451
+         LysTyrAsnGluAsnGlyThrIleThrAspAlaValAspCysAlaLeuAspProLeuSer
+         ||||||:!!|||||||||||||||||||||||||||||||||:!!!  :!!||||||:!!
+   265 : LysTyrAspGluAsnGlyThrIleThrAspAlaValAspCysSerGlnAsnProLeuAla :   284
+
+ 22452 : GAAACAAAGTGTACGTTGAAATCCTTCACTGTAGAAAAAGGAATCTATCAAACTTCTAAC : 22511
+         GluThrLysCysThrLeuLysSerPheThrValGluLysGlyIleTyrGlnThrSerAsn
+         |||  !||||||!!!:!!|||||||||   :!!!!:||||||||||||||||||||||||
+   285 : GluLeuLysCysSerValLysSerPheGluIleAspLysGlyIleTyrGlnThrSerAsn :   304
+
+ 22512 : TTTAGAGTCCAACCAACAGAATCTATTGTTAGATTTCCTAATATTACAAACTTGTGCCCT : 22571
+         PheArgValGlnProThrGluSerIleValArgPheProAsnIleThrAsnLeuCysPro
+         |||||||||  !|||!!!! !..!:!!|||||||||||||||||||||||||||||||||
+   305 : PheArgValValProSerGlyAspValValArgPheProAsnIleThrAsnLeuCysPro :   324
+
+ 22572 : TTTGGTGAAGTTTTTAACGCCACCAGATTTGCATCTGTTTATGCTTGGAACAGGAAGAGA : 22631
+         PheGlyGluValPheAsnAlaThrArgPheAlaSerValTyrAlaTrpAsnArgLysArg
+         ||||||||||||||||||||||||!:!||| !!|||||||||||||||.!.||||||!:!
+   325 : PheGlyGluValPheAsnAlaThrLysPheProSerValTyrAlaTrpGluArgLysLys :   344
+
+ 22632 : ATCAGCAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCACTTTT : 22691
+         IleSerAsnCysValAlaAspTyrSerValLeuTyrAsnSerAlaSerPheSerThrPhe
+         ||||||||||||||||||||||||||||||||||||||||||.!!!  ||||||||||||
+   345 : IleSerAsnCysValAlaAspTyrSerValLeuTyrAsnSerThrPhePheSerThrPhe :   364
+
+ 22692 : AAGTGTTATGGAGTGTCTCCTACTAAATTAAATGATCTCTGCTTTACTAATGTCTATGCA : 22751
+         LysCysTyrGlyValSerProThrLysLeuAsnAspLeuCysPheThrAsnValTyrAla
+         |||||||||||||||||| !!||||||||||||||||||||||||!!!||||||||||||
+   365 : LysCysTyrGlyValSerAlaThrLysLeuAsnAspLeuCysPheSerAsnValTyrAla :   384
+
+ 22752 : GATTCATTTGTAATTAGAGGTGATGAAGTCAGACAAATCGCTCCAGGGCAAACTGGAAAG : 22811
+         AspSerPheValIleArgGlyAspGluValArgGlnIleAlaProGlyGlnThrGlyLys
+         ||||||||||||:!!!:!||||||!!:||||||||||||||||||||||||||||||  !
+   385 : AspSerPheValValLysGlyAspAspValArgGlnIleAlaProGlyGlnThrGlyVal :   404
+
+ 22812 : ATTGCTGATTATAATTATAAATTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAAT : 22871
+         IleAlaAspTyrAsnTyrLysLeuProAspAspPheThrGlyCysValIleAlaTrpAsn
+         ||||||||||||||||||||||||||||||||||||!  |||||||||:!!|||||||||
+   405 : IleAlaAspTyrAsnTyrLysLeuProAspAspPheMetGlyCysValLeuAlaTrpAsn :   424
+
+ 22872 : TCTAACAATCTTGATTCTAAGGTTGGTGGTAATTATAATTACCTGTATAGATTGTTTAGG : 22931
+         SerAsnAsnLeuAspSerLysValGlyGlyAsnTyrAsnTyrLeuTyrArgLeuPheArg
+         :!!!.!|||:!!|||:!!! !  !  !|||||||||||||||  !||||||!  !!!|||
+   425 : ThrArgAsnIleAspAlaThrSerThrGlyAsnTyrAsnTyrLysTyrArgTyrLeuArg :   444
+
+ 22932 : AAGTCTAATCTCAAACCTTTTGAGAGAGATATTTCAACTGAAATCTATCAGGCCGGTAGC : 22991
+         LysSerAsnLeuLysProPheGluArgAspIleSerThrGluIleTyrGlnAlaGlySer
+          ! ..!!!.|||!:!|||||||||||||||||||||!.!! !  !!:!..! !!! !.!!
+   445 : HisGlyLysLeuArgProPheGluArgAspIleSerAsnValProPheSerProAspGly :   464
+
+ 22992 : ACACCTTGTAAT : 23005
+         ThrProCysAsn
+         ! !||||||!.!
+   465 : LysProCysThr :   468
+
+vulgar: NC_045512.2 22333 23005 + BAC81404.1 244 468 . 918 M 672 224
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 858
+   Query range: 23014 -> 23590
+  Target range: 470 -> 662
+
+ 23015 : GGTTTTAATTGTTACTTTCCTTTACAATCATATGGTTTCCAACCCACTAATGGTGTTGGT : 23072
+         GlyPheAsnCysTyrPheProLeuGlnSerTyrGlyPheGlnProThrAsnGlyValGly
+         !.!!!!|||||||||!::||||||.!....||||||||| !  !!|||!.!|||:!!|||
+   471 : AlaLeuAsnCysTyrTrpProLeuAsnAspTyrGlyPheTyrThrThrThrGlyIleGly :   490
+
+ 23073 : TACCAACCATACAGAGTAGTAGTACTTTCTTTTGAACTTCTACATGCACCAGCAACTGTT : 23132
+         TyrGlnProTyrArgValValValLeuSerPheGluLeuLeuHisAlaProAlaThrVal
+         ||||||||||||||||||||||||||||||||||||||||||:!!|||||||||||||||
+   491 : TyrGlnProTyrArgValValValLeuSerPheGluLeuLeuAsnAlaProAlaThrVal :   510
+
+ 23133 : TGTGGACCTAAAAAGTCTACTAATTTGGTTAAAAACAAATGTGTCAATTTCAACTTCAAT : 23192
+         CysGlyProLysLysSerThrAsnLeuValLysAsnLysCysValAsnPheAsnPheAsn
+         ||||||||||||  !||||||:!!|||:!!||||||:!!|||||||||||||||||||||
+   511 : CysGlyProLysLeuSerThrAspLeuIleLysAsnGlnCysValAsnPheAsnPheAsn :   530
+
+ 23193 : GGTTTAACAGGCACAGGTGTTCTTACTGAGTCTAACAAAAAGTTTCTGCCTTTCCAACAA : 23252
+         GlyLeuThrGlyThrGlyValLeuThrGluSerAsnLysLysPheLeuProPheGlnGln
+         |||||||||||||||||||||||||||  !|||!:!|||!:!|||! !||||||||||||
+   531 : GlyLeuThrGlyThrGlyValLeuThrProSerSerLysArgPheGlnProPheGlnGln :   550
+
+ 23253 : TTTGGCAGAGACATTGCTGACACTACTGATGCTGTCCGTGATCCACAGACACTTGAGATT : 23312
+         PheGlyArgAspIleAlaAspThrThrAspAlaValArgAspProGlnThrLeuGluIle
+         ||||||||||||:!!:!!|||  !||||||:!!||||||||||||:!!|||  !||||||
+   551 : PheGlyArgAspValSerAspPheThrAspSerValArgAspProLysThrSerGluIle :   570
+
+ 23313 : CTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACT : 23372
+         LeuAspIleThrProCysSerPheGlyGlyValSerValIleThrProGlyThrAsnThr
+         |||||||||!!!|||||||||||||||||||||||||||||||||||||||||||||.!!
+   571 : LeuAspIleSerProCysSerPheGlyGlyValSerValIleThrProGlyThrAsnAla :   590
+
+ 23373 : TCTAACCAGGTTGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATT : 23432
+         SerAsnGlnValAlaValLeuTyrGlnAspValAsnCysThrGluValProValAlaIle
+         |||!:!:!!|||||||||||||||||||||||||||||||||!!:||| !!..!||||||
+   591 : SerSerGluValAlaValLeuTyrGlnAspValAsnCysThrAspValSerThrAlaIle :   610
+
+ 23433 : CATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTTCTAATGTTTTTCAA : 23492
+         HisAlaAspGlnLeuThrProThrTrpArgValTyrSerThrGlySerAsnValPheGln
+         |||||||||||||||||||||.!!||||||:!!||||||||||||::!||||||||||||
+   611 : HisAlaAspGlnLeuThrProAlaTrpArgIleTyrSerThrGlyAsnAsnValPheGln :   630
+
+ 23493 : ACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCATATGAGTGTGACATA : 23552
+         ThrArgAlaGlyCysLeuIleGlyAlaGluHisValAsnAsnSerTyrGluCysAspIle
+         |||!::||||||||||||||||||||||||||||||:!!!.!||||||||||||||||||
+   631 : ThrGlnAlaGlyCysLeuIleGlyAlaGluHisValAspThrSerTyrGluCysAspIle :   650
+
+ 23553 : CCCATTGGTGCAGGTATATGCGCTAGTTATCAGACT : 23590
+         ProIleGlyAlaGlyIleCysAlaSerTyrGlnThr
+         ||||||||||||||||||||||||||||||!!.|||
+   651 : ProIleGlyAlaGlyIleCysAlaSerTyrHisThr :   662
+
+vulgar: NC_045512.2 23014 23590 + BAC81404.1 470 662 . 858 M 576 192
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 267
+   Query range: 22021 -> 22291
+  Target range: 146 -> 236
+
+ 22022 : GAAAGTGAGTTCAGAGTTTATTCTAGTGCGAATAATTGCACTTTTGAATATGTCTCTCAG : 22079
+         GluSerGluPheArgValTyrSerSerAlaAsnAsnCysThrPheGluTyrValSerGln
+         :!!!:!.!.  !!  :!!!:!..!!:!|||  !||||||||||||||||||:!!|||.!.
+   147 : GlnThrHisThrMetIlePheAspAsnAlaPheAsnCysThrPheGluTyrIleSerAsp :   166
+
+ 22080 : CCTTTTCTTATGGACCTTGAAGGAAAACAGGGTAATTTCAAAAATCTTAGGGAATTTGTG : 22139
+         ProPheLeuMetAspLeuGluGlyLysGlnGlyAsnPheLysAsnLeuArgGluPheVal
+          !!|||  !:!!|||:!!..!! !|||..!||||||||||||:!!|||||||||||||||
+   167 : AlaPheSerLeuAspValSerGluLysSerGlyAsnPheLysHisLeuArgGluPheVal :   186
+
+ 22140 : TTTAAGAATATTGATGGTTATTTTAAAATATATTCTAAGCACACGCCTATTAATTTAGTG : 22199
+         PheLysAsnIleAspGlyTyrPheLysIleTyrSerLysHisThrProIleAsnLeuVal
+         |||||||||!  ||||||!:!!!! ! :!!|||...  !:!!  !||||||:!!:!!|||
+   187 : PheLysAsnLysAspGlyPheLeuTyrValTyrLysGlyTyrGlnProIleAspValVal :   206
+
+ 22200 : CGTGATCTCCCTCAGGGTTTTTCGGCTTTAGAACCATTGGTAGATTTGCCAATAGGTATT : 22259
+         ArgAspLeuProGlnGlyPheSerAlaLeuGluProLeuValAspLeuProIleGlyIle
+         ||||||||||||..!||||||:::.!!|||:!!|||:!: !  ! ||||||:!!||||||
+   207 : ArgAspLeuProSerGlyPheAsnThrLeuLysProIlePheLysLeuProLeuGlyIle :   226
+
+ 22260 : AACATCACTAGGTTTCAAACTTTACTTGCT : 22291
+         AsnIleThrArgPheGlnThrLeuLeuAla
+         |||||||||!..|||!:!.!!:!!|||.!!
+   227 : AsnIleThrAsnPheArgAlaIleLeuThr :   236
+
+vulgar: NC_045512.2 22021 22291 + BAC81404.1 146 236 . 267 M 270 90
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 256
+   Query range: 21796 -> 21991
+  Target range: 75 -> 140
+
+ 21797 : TTTGATAACCCTGTCCTACCATTTAATGATGGTGTTTATTTTGCTTCCACTGAGAAGTCT : 21854
+         PheAspAsnProValLeuProPheAsnAspGlyValTyrPheAlaSerThrGluLysSer
+         |||! !|||||||||:!!||||||!!.||||||:!!|||||||||:!!||||||||||||
+    76 : PheGlyAsnProValIleProPheLysAspGlyIleTyrPheAlaAlaThrGluLysSer :    95
+
+ 21855 : AACATAATAAGAGGCTGGATTTTTGGTACTACTTTAGATTCGAAGACCCAGTCCCTACTT : 21914
+         AsnIleIleArgGlyTrpIlePheGlyThrThrLeuAspSerLysThrGlnSerLeuLeu
+         |||:!!:!!|||||||||:!!||||||!!!|||:!::!!:::|||!!!||||||:!!:!!
+    96 : AsnValValArgGlyTrpValPheGlySerThrMetAsnAsnLysSerGlnSerValIle :   115
+
+ 21915 : ATTGTTAATAACGCTACTAATGTTGTTATTAAAGTCTGTGAATTTCAATTTTGTAATGAT : 21974
+         IleValAsnAsnAlaThrAsnValValIleLysValCysGluPheGlnPheCysAsnAsp
+         |||:!!||||||:!!|||||||||||||||!:!!.!|||.!.|||:!!!!!|||:!!:!!
+   116 : IleIleAsnAsnSerThrAsnValValIleArgAlaCysAsnPheGluLeuCysAspAsn :   135
+
+ 21975 : CCATTTTTGGGTGTT : 21991
+         ProPheLeuGlyVal
+         ||||||!!.!.!|||
+   136 : ProPhePheAlaVal :   140
+
+vulgar: NC_045512.2 21796 21991 + BAC81404.1 75 140 . 256 M 195 65
+
+C4 Alignment:
+------------
+         Query: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+        Target: BAC81404.1 spike protein S [SARS coronavirus TWY]
+         Model: ungapped:dna2protein
+     Raw score: 148
+   Query range: 21649 -> 21769
+  Target range: 33 -> 73
+
+ 21650 : AATTCTTTCACACGTGGTGTTTATTACCCTGACAAAGTTTTCAGATCCTCAGTTTTACAT : 21707
+         AsnSerPheThrArgGlyValTyrTyrProAspLysValPheArgSerSerValLeuHis
+         !.!|||! !!  |||||||||||||||||||||:!!:!!|||||||||.....!|||:!!
+    34 : ThrSerSerMetArgGlyValTyrTyrProAspGluIlePheArgSerAspThrLeuTyr :    53
+
+ 21708 : TCAACTCAGGACTTGTTCTTACCTTTCTTTTCCAATGTTACTTGGTTCCATGCTATACAT : 21767
+         SerThrGlnAspLeuPheLeuProPhePheSerAsnValThrTrpPheHisAlaIleHis
+         ! !||||||||||||||||||||||||!:!|||||||||||| !!||||||.!!|||:!!
+    54 : LeuThrGlnAspLeuPheLeuProPheTyrSerAsnValThrGlyPheHisThrIleAsn :    73
+
+vulgar: NC_045512.2 21649 21769 + BAC81404.1 33 73 . 148 M 120 40
+
+patrones completamente identicos en algunos casos, sin embargo si lo comparas con muestras evolucionadas del virus superiores tienen menos coincidencia que con covid 19, este es mas parecido a la version de 2004 que a una version moderna conocida hasta la fecha del primer caso.
+
+
+
+
+
+
+
+
