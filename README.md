@@ -22,6 +22,8 @@ Herramienta de prediccion
 
 ![prediction plot](plot.png)
 
+
+
 Uso 
 
 
@@ -58,6 +60,9 @@ Common flags:
 
 ````
 
+Zoom con las teclas + -
+
+Mover el espacio con el cursor
 
 Para windows editar y descomentar la linea de windows y comentar la de linux . 
 
