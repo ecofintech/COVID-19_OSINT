@@ -17,6 +17,11 @@ https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c
 
 Herramienta de prediccion 
 
+
+
+
+![prediction plot](plot.png)
+
 Uso 
 
 
