@@ -64,11 +64,6 @@ Zoom con las teclas + -
 
 Mover el espacio con el cursor
 
-Para windows editar y descomentar la linea de windows y comentar la de linux . 
-
-Dependencias
-
-apt install haskell-platform
+*Para windows usar el fichero pandemia.exe ejecutable.
 
 
-Binarios cooming soon
