@@ -175,13 +175,13 @@ Proteina S 2004 , Batsars2010 56 %
 
 
 
-Covid 19 contra Batsars2020 -> 47 %
+Covid 19 contra Batsars2020 -> 47 % <--- Es "primo" de covid 19
 
 Covid 19 contra Batsars2015 -> 37 %
 
-Covid 19 contra Batsars2010 -> 44 % <--- Algo anormal pues deberian tener un orden de perdida de similitud de genes acorde al tiempo y una vez mas el mas antiguo es mas parecido 
+Covid 19 contra Batsars2010 -> 34 % 
 
-Covid contra Sars -> 38 %
+Covid contra Sars -> 38 % <--- Tiene mas de 2004 que de 2010 o 2015
 
 
 Posible conclusion
