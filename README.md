@@ -14,6 +14,10 @@ Documento colaborativo: https://paper.komun.org/p/covid19-OSINT
 Dashboard Coronavirus COVID-19 (Mobile)
 https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61
 
+Data source CSV
+
+https://github.com/CSSEGISandData/COVID-19
+
 
 # Herramienta de prediccion 
 
