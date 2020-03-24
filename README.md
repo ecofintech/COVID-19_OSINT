@@ -242,6 +242,13 @@ https://es.wikipedia.org/wiki/Instituto_de_Virolog%C3%ADa_de_Wuhan
 
 # Riots
 
+La situacion actual incrementa el numero de denuncias y abusos de autoridad, desabastecimiento, desinformación, abuso de poder, manipulacion de los medios causan la crispacion de los ciudadanos, pero cual es el momento que estallan y porque.
+
+
+Puede una pandemia probocar disturbios segun factores claros como, denuncias a ciudadanos en contra de derechos fundamentales, o el abuso de la fuerza por parte de la autoridad ?
+
+Son los disturbios claramente vinculados a la presencia policial ? y el aumento de sus injustas acciones ?, el numero de multas y su concentracion en las areas de las protestas ? eso desciben en nature . (todo: añadir funciones en el simulador)
+
 A mathematical model of the London riots and their policing
 
 https://www.nature.com/articles/srep01303#Sec12
