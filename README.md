@@ -20,19 +20,38 @@ Herramienta de prediccion
 
 
 
-![prediction plot](plot.png)
+![prediction plot](plot_prediction.png)
 
 
 
 Uso 
 
+Con el siguiente comando obtendriamos el plot del ejemplo .
+
+Predice mas de 12 millones en españa de infectados, 766 mil personas muertas con la actual tasa de muerte del 6 % de los detectados, para dentro de aproximadamente 65 dias. Hay que tener en cuenta que es en caso de no tener vacuna hasta entonces y con los datos actuales extraidos de articulos y de distintas fuentes de informacion.
+
+Como parametros hemos usado 8 % de tasa de recuperacion y el 6% la tasa de muertes de :
+
+https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+La tasa de hospitalizacion segun 
+
+https://www.redaccionmedica.com/secciones/sanidad-hoy/coronavirus-mortalidad-inferior-1-en-pacientes-con-menos-de-60-anos-6396
+
+24 cyclos de 7 dias (el ultimo como periodo de incubacion)
+
+
 
 ````
+#Generate prediction
 
-runhaskell pandemia.hs --contact_rate 2 --infected_rate 10 --recovered 80 --hospital 40 --danger 20 --cycles 16 --incubation 7
+./pandemia --contact_rate 2 --infected_rate 80 --recovered 8 --hospital 25 --danger 20 --dead 6 --cycles 24 --incubation 7
 
 
-runhaskell pandemia.hs --help
+#Help
+
+./pandemia --help
+
 The commandargs program
 
 commandargs [OPTIONS]
