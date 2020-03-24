@@ -217,6 +217,15 @@ https://www.ncbi.nlm.nih.gov/
      
      Hydroxychloroquine 
      
+     
+     
+     
+Parece que ya fueron usados para el sars y solicitada patente en laboratorio de wuhan segun wikipedia
+
+
+https://es.wikipedia.org/wiki/Instituto_de_Virolog%C3%ADa_de_Wuhan
+
+
 
 # Financiero 
 
