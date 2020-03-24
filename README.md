@@ -14,7 +14,7 @@ Uso
 
 ````
 
-runhaskell pandemia.hs --contact_rate 2 --infected_rate 10 --recovered 80 --hospital 40 --danger 20 --cycles 16 --incubation 7
+./pandemia --contact_rate 2 --infected_rate 10 --recovered 80 --hospital 40 --danger 20 --cycles 16 --incubation 7
 
 
 runhaskell pandemia.hs --help
