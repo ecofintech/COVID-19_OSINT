@@ -15,7 +15,7 @@ Dashboard Coronavirus COVID-19 (Mobile)
 https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61
 
 
-Herramienta de prediccion 
+# Herramienta de prediccion 
 
 
 
@@ -24,7 +24,7 @@ Herramienta de prediccion
 
 
 
-Uso 
+# Uso 
 
 Con el siguiente comando obtendriamos el plot del ejemplo .
 
@@ -86,7 +86,7 @@ Mover el espacio con el cursor
 *Para windows usar el fichero pandemia.exe ejecutable.
 
 
-Genome analysis 
+# Genome analysis 
 
 Users guide
 
@@ -184,7 +184,7 @@ Covid 19 contra Batsars2010 -> 34 %
 Covid contra Sars -> 38 % <--- Tiene mas de 2004 que de 2010 o 2015
 
 
-Posible conclusion
+# Posible conclusion
 
 
 En diferentes momentos del tiempo sars es reintroducido en la naturaleza, al menos alrededor de 2010 y 2013, donde un virus sin mutar vuelve a generar nuevas generaciones, Covid 19 y Batsars2020 son primos, pero ambos descienden de una especie de sars2004 no conocida. Existen escapes conocidos en la zona de Wuhan. 
@@ -197,3 +197,12 @@ En los archivos de la carpeta fasta estan los genomas para comprobar cada uno su
 
 https://www.ncbi.nlm.nih.gov/
 
+
+
+# Medicamentos
+
+     Remdesivir
+     
+     Hydroxychloroquine 
+     
+     
