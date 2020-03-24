@@ -28,7 +28,7 @@ Uso
 
 Con el siguiente comando obtendriamos el plot del ejemplo .
 
-Predice mas de 12 millones en españa de infectados, 766 mil personas muertas con la actual tasa de muerte del 6 % de los detectados, para dentro de aproximadamente 65 dias. Hay que tener en cuenta que es en caso de no tener vacuna hasta entonces y con los datos actuales extraidos de articulos y de distintas fuentes de informacion.
+Predice mas de 12 millones en españa de infectados, 766 mil personas muertas con la actual tasa de muerte del 6 % de los detectados, para dentro de aproximadamente 65 dias. Hay que tener en cuenta que es en caso de no tener vacuna, con los datos actuales extraidos de articulos y de distintas fuentes de informacion. Cada uno puede hacer sus prediccciones acorde vaya habiendo nuevos datos.
 
 Como parametros hemos usado 8 % de tasa de recuperacion y el 6% la tasa de muertes de :
 
