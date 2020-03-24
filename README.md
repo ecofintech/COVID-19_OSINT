@@ -88,6 +88,13 @@ Mover el espacio con el cursor
 
 # Genome analysis 
 
+Genomic epidemiology of novel coronavirus
+
+
+https://nextstrain.org/ncov?l=clock
+
+
+
 Users guide
 
 https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate-user-guide
@@ -213,9 +220,10 @@ https://www.ncbi.nlm.nih.gov/
 
 # Medicamentos
 
-     Remdesivir
+
+     - Remdesivir
      
-     Hydroxychloroquine 
+     - Hydroxychloroquine 
      
      
      
