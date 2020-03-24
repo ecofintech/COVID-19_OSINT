@@ -23,6 +23,20 @@ Herramienta analisis genetico ETE3
 https://github.com/etetoolkit/ete
 
 
+# Herramienta para crawlear fake news en los medios supuestamente serios
+
+
+https://code.montera34.com/numeroteca/homepagex
+
+
+
+# Herramienta de analisis de datos de Covid 19
+
+
+https://code.montera34.com/numeroteca/covid19
+
+
+
 # Herramienta de prediccion 
 
 
