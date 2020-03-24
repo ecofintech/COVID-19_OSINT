@@ -67,3 +67,51 @@ Mover el espacio con el cursor
 *Para windows usar el fichero pandemia.exe ejecutable.
 
 
+GENEMO ANALYSIS 
+
+Users guide
+
+https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate-user-guide
+
+Examples
+
+```` 
+
+./exonerate orf1ab2004.fasta covid
+
+
+C4 Alignment:
+------------
+         Query: AAP49011.4 orf1ab polyprotein [SARS coronavirus ZJ01]
+        Target: NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+         Model: ungapped:protein2dna
+     Raw score: 217
+   Query range: 925 -> 989
+  Target range: 3034 -> 3226
+
+  926 : TyrProProAspGluGluGluGluAspAspAlaGluCysGluGluGluGluIleAspGluTh :  946
+        !:!  !|||   !!:|||!!:|||!!:!!:!.!!!:|||||||||||||||.!!!!:  !:!
+        PheTyrProProAspGluAspGluGluGluGlyAspCysGluGluGluGluPheGluProSe
+ 3035 : TTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATC : 3095
+
+  947 : rCysGluHisGluTyrGlyThrGluAspAspTyrGlnGlyLeuProLeuGluPheGlyAlaS :  967
+        !  !:!!:!!||||||||||||||||||||||||||||||  !||||||||||||||||||!
+        rThrGlnTyrGluTyrGlyThrGluAspAspTyrGlnGlyLysProLeuGluPheGlyAlaT
+ 3096 : AACTCAATATGAGTATGGTACTGAAGATGATTACCAAGGTAAACCTTTGGAATTTGGTGCCA : 3158
+
+  968 : erAlaGluThrValArgValGluGluGluGluGluGluAspTrpLeuAspAspThrThrGlu :  987
+        !!:!!!  .!!:!!!:!  !|||||||||:!!|||||||||||||||||||||  !!:!:!!
+        hrSerAlaAlaLeuGlnProGluGluGluGlnGluGluAspTrpLeuAspAspAspSerGln
+ 3159 : CTTCTGCTGCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGATAGTCAA : 3218
+
+  988 : GlnSer :  989
+        |||!!!
+        GlnThr
+ 3219 : CAAACT : 3226
+
+
+```` 
+
+
+
+Data in fasta format in fasta folder.
