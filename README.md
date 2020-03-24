@@ -135,6 +135,8 @@ C4 Alignment:
 
 Resumen de comparacion de proteinas originales de sars2004 , y los diferentes virus de diferentes epocas descendientes de sars2004. Resultados obtenidos con el parametro --percent de exonerate.
 
+
+
 Proteina M 2004 , Covid 91 %
 
 Proteina M 2004 , Batsars2020 91 %
@@ -142,6 +144,8 @@ Proteina M 2004 , Batsars2020 91 %
 Proteina M 2004 , Batsars2015 97 %
 
 Proteina M 2004 , Batsars2010 98 %
+
+
 
 
 Proteina Orf1ab 2004 , Covid 37 %
@@ -154,6 +158,8 @@ muestras de 2020
 Proteina Orf1ab 2004 , Batsars2010 38 %
 
 
+
+
 Proteina E 2004 , Covid 87 %
 
 Proteina E 2004 , Batsars2020 87 %
@@ -161,6 +167,8 @@ Proteina E 2004 , Batsars2020 87 %
 Proteina E 2004 , Batsars2015 98 %
 
 Proteina E 2004 , Batsars2010 100 %
+
+
 
 
 
@@ -175,6 +183,8 @@ Proteina S 2004 , Batsars2010 56 %
 
 
 
+
+
 Covid 19 contra Batsars2020 -> 47 % <--- Es "primo" de covid 19
 
 Covid 19 contra Batsars2015 -> 37 %
@@ -182,6 +192,8 @@ Covid 19 contra Batsars2015 -> 37 %
 Covid 19 contra Batsars2010 -> 34 % 
 
 Covid contra Sars -> 38 % <--- Tiene mas de 2004 que de 2010 o 2015
+
+
 
 
 # Posible conclusion
