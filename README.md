@@ -86,7 +86,7 @@ Mover el espacio con el cursor
 *Para windows usar el fichero pandemia.exe ejecutable.
 
 
-GENEMO ANALYSIS 
+Genome analysis 
 
 Users guide
 
