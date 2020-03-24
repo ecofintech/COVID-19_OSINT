@@ -136,33 +136,56 @@ C4 Alignment:
 Resumen de comparacion de proteinas originales de sars2004 , y los diferentes virus de diferentes epocas descendientes de sars2004. Resultados obtenidos con el parametro --percent de exonerate.
 
 Proteina M 2004 , Covid 91 %
+
 Proteina M 2004 , Batsars2020 91 %
+
 Proteina M 2004 , Batsars2015 97 %
+
 Proteina M 2004 , Batsars2010 98 %
 
 
 Proteina Orf1ab 2004 , Covid 37 %
+
 Proteina Orf1ab 2004 , Batsars2020 37 %
-Proteina Orf1ab 2004 , Batsars2015 59 %   <----- Algo extraño ya que es mas parecida a 2004 que a 2010, y 2010 muy parecido a las muestras de 2020 
+
+Proteina Orf1ab 2004 , Batsars2015 59 %   <----- Algo extraño ya que es mas parecida a 2004 que a 2010, y 2010 muy parecido a las 
+muestras de 2020 
+
 Proteina Orf1ab 2004 , Batsars2010 38 %
 
+
 Proteina E 2004 , Covid 87 %
+
 Proteina E 2004 , Batsars2020 87 %
+
 Proteina E 2004 , Batsars2015 98 %
+
 Proteina E 2004 , Batsars2010 100 %
 
-Proteina S 2004 , Covid 42 % <------ Algo anormal en la proteina s , ha evolucionado mucho mas que su primo Batsars ? , solo en esta proteina ?
+
+
+Proteina S 2004 , Covid 42 % <------ Algo anormal en la proteina s , ha evolucionado mucho mas que su primo Batsars ? , solo en 
+esta proteina ?
+
 Proteina S 2004 , Batsars2020 55 %
+
 Proteina S 2004 , Batsars2015 55 %
+
 Proteina S 2004 , Batsars2010 56 %
 
+
+
 Covid 19 contra Batsars2020 -> 47 %
+
 Covid 19 contra Batsars2015 -> 37 %
+
 Covid 19 contra Batsars2010 -> 44 % <--- Algo anormal pues deberian tener un orden de perdida de similitud de genes acorde al tiempo y una vez mas el mas antiguo es mas parecido 
+
 Covid contra Sars -> 38 %
 
 
 Posible conclusion
+
 
 En diferentes momentos del tiempo sars es reintroducido en la naturaleza, al menos alrededor de 2010 y 2013, donde un virus sin mutar vuelve a generar nuevas generaciones, Covid 19 y Batsars2020 son primos, pero ambos descienden de una especie de sars2004 no conocida. Existen escapes conocidos en la zona de Wuhan. 
 
