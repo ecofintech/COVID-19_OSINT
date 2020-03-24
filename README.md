@@ -209,3 +209,10 @@ https://www.ncbi.nlm.nih.gov/
 # Financiero 
 
 ...
+
+
+# Riots
+
+A mathematical model of the London riots and their policing
+
+https://www.nature.com/articles/srep01303#Sec12
