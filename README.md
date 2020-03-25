@@ -256,6 +256,14 @@ Parece que ya fueron usados para el sars y solicitada patente en laboratorio de 
 https://es.wikipedia.org/wiki/Instituto_de_Virolog%C3%ADa_de_Wuhan
 
 
+     -hidroxicloroquina 
+     
+     -azitromicina
+     
+Se publica estudio en escasos pacientes con éxito mediante la combinación de los dos medicamentos anteriores.
+
+https://actualidad.rt.com/actualidad/347290-anunciar-exito-pruebas-vacuna-coronavirus-francia     
+https://www.mediterranee-infection.com/epidemie-a-coronavirus-covid-19/
 
 # Financiero 
 
