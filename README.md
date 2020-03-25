@@ -279,6 +279,23 @@ A mathematical model of the London riots and their policing
 https://www.nature.com/articles/srep01303#Sec12
 
 
+# Medidas de contingencia ante ataque terrorista del estado contra las libertades basicas de los ciudadanos.
+
+
+Existe el hipotetico caso de que una vez confiandas las personas , puedan sufrir cortes en la red, bien sea por sobre uso de la red que han vendido durante años fraudulentamente, o por orden del estado ejerciendo su actual maxima autoridad.
+
+
+Existe la posibilidade que corten el internet cuando la gente intente organizarse por si mismo. Si esto ocurre nunca nadie podria organizarse ya que la via fisica estara cortada y la via telematica tambien, es por eso que los ciudadanos deberian tomar medidas contra esta hipotetica situacion. Y hacer un pacto ciudadano de salir a la calle masivamente si las medidas impuestas por el gobierno privan la capacidad comunicativa de sus ciudadanos.
+
+
+Propuestas :
+
+     Salir los dias 13 a la calle para organizarse en caso de que el gobierno corte la red
+
+
+
+
+
 
 # Herramientas OSINT
 
