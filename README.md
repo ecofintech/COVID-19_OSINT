@@ -242,6 +242,8 @@ https://www.ncbi.nlm.nih.gov/
 
 # Medicamentos
 
+Nos esta claro la eficiacia en la poblacion aun de los medicamentos
+
 
      - Remdesivir
      
