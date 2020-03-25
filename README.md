@@ -290,7 +290,7 @@ Existe la posibilidade que corten el internet cuando la gente intente organizars
 
 Propuestas :
 
-     Salir los dias 13 a la calle para organizarse en caso de que el gobierno corte la red
+     Salir los dias 13 a la calle para organizarse en caso de que el gobierno corte la red, a las 17 en la plaza del ayuntamiento
 
 
 
