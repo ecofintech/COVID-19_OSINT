@@ -287,7 +287,7 @@ A mathematical model of the London riots and their policing
 https://www.nature.com/articles/srep01303#Sec12
 
 
-# Medidas de contingencia ante ataque terrorista del estado contra las libertades basicas de los ciudadanos.
+# Medidas de contingencia ante posible ataque terrorista del estado contra las libertades basicas de los ciudadanos.
 
 
 Existe el hipotetico caso de que una vez confiandas las personas , puedan sufrir cortes en la red, bien sea por sobre uso de la red que han vendido durante años fraudulentamente, o por orden del estado ejerciendo su actual maxima autoridad.
@@ -301,8 +301,21 @@ Propuestas :
      Salir los dias 13 a la calle para organizarse en caso de que el gobierno corte la red, a las 17 en la plaza del ayuntamiento
 
 
+# Futuros posibles
 
+     - Un futuro donde hay vacuna antes o despues y nada de esto ha pasado y solo queda el rastro de desastres desencadenados y la conciencia social del problema de pandemia
 
+     - Leyes pandemia, leyes en nombre de la prevencion de pandemia, como siempre nos protegen de todo, datos, seguridad social , es muy probable que algun gobierno se le ocurra la idea de limitar las libertades de las persones de manera perpetua .
+     
+     - Un futuro donde se receta un tratamiento para todo el mundo hasta que haya una vacuna o la poblacion se inmunice
+
+     - Un futuro en el que el control de todos los movimientos de los ciudadanos sean controlados telematicamente por ley
+    
+     - Un futuro donde los controles transfronterizos o incluso entre ciudades y barrios sean posibles
+     
+     
+    EDITAR LO QUE SE OS OCURRA
+     ...... 
 
 # Herramientas OSINT
 
