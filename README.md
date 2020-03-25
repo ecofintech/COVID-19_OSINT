@@ -296,7 +296,6 @@ Propuestas :
 
 
 
-
 # Herramientas OSINT
 
 Repositorio de enlaces a herramientas OSINT:
