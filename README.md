@@ -289,6 +289,18 @@ A mathematical model of the London riots and their policing
 https://www.nature.com/articles/srep01303#Sec12
 
 
+Sanciones a ciudadanos de españa
+
+https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronavirus/2010719.shtml
+
+
+102 mil denuncias 938 arrestados
+
+
+martes 24 marzon 20 mil denuncias 130 arrestados
+ 
+
+
 # Medidas de contingencia ante posible ataque terrorista del estado contra las libertades basicas de los ciudadanos.
 
 
