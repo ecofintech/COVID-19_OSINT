@@ -277,3 +277,10 @@ Son los disturbios claramente vinculados a la presencia policial ? y el aumento 
 A mathematical model of the London riots and their policing
 
 https://www.nature.com/articles/srep01303#Sec12
+
+
+
+# Herramientas OSINT
+
+Repositorio de enlaces a herramientas OSINT:
+https://ciberpatrulla.com/links/

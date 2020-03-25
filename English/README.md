@@ -277,3 +277,10 @@ Are the riots clearly linked to the police presence ? and the increase of their 
 A mathematical model of the London riots and their policing
 
 https://www.nature.com/articles/srep01303#Sec12
+
+
+# OSINT tools
+
+OSINT tools link repository:
+https://ciberpatrulla.com/links/
+
