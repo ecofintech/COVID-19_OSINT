@@ -271,7 +271,7 @@ https://www.mediterranee-infection.com/epidemie-a-coronavirus-covid-19/
 
 ...
 
-# FAKE NEWS MEDIOS RESPETABLES Y GOBIERNO
+# Fake news medios respetables
 
 URL de El País desde enero hasta 25 de marzo 2020
 
@@ -505,7 +505,8 @@ A mathematical model of the London riots and their policing
 https://www.nature.com/articles/srep01303#Sec12
 
 
-Sanciones a ciudadanos de españa
+Denuncias y arrestos vinculadas al estado de alarma
+
 
 https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronavirus/2010719.shtml
 
@@ -513,7 +514,7 @@ https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronav
 102 mil denuncias 938 arrestados
 
 
-martes 24 marzon 20 mil denuncias 130 arrestados
+martes 24 marzo 20 mil denuncias 130 arrestados
  
 
 
