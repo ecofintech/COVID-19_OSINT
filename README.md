@@ -246,6 +246,29 @@ Covid 19 contra Batsars2010 -> 34 %
 Covid contra Sars -> 38 % <--- Tiene mas de 2004 que de 2010 o 2015
 
 
+# Recursos colaborativos
+
+### COVID-19 Open Research Dataset Challenge (CORD-19)
+
+https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks
+
+### Gmnakamura
+
+https://github.com/gmnakamura
+
+### El github del John Hopkins, los del evento 201
+
+https://github.com/CSSEGISandData/COVID-19
+
+### An open source COVID-19 autoevaluation test
+
+https://github.com/celiavelmar/open-covid19-test
+
+### Makers
+
+https://world.coronavirusmakers.org/
+
+https://gitlab.com/coronavirusmakers/recursos
 
 
 # Hipótesis alternativas
@@ -263,7 +286,7 @@ https://www.ncbi.nlm.nih.gov/
 
 
 
-# Medicamentos
+# Medicina
 
 No esta claro la eficiacia en la poblacion aun de los medicamentos
 
@@ -290,15 +313,26 @@ Se publica estudio en escasos pacientes con éxito mediante la combinación de l
 https://actualidad.rt.com/actualidad/347290-anunciar-exito-pruebas-vacuna-coronavirus-francia     
 https://www.mediterranee-infection.com/epidemie-a-coronavirus-covid-19/
 
+### La vacuna de la gripe podría estar agravando la enfermedad por COVID-19
+
+https://www.ncbi.nlm.nih.gov/pubmed/31607599
+
+
+
 # Financiero 
 
-## Multimillonarios de EEUU se han vuelto 10% más ricos durante la pandemia de Covid-19
+### Multimillonarios de EEUU se han vuelto 10% más ricos durante la pandemia de Covid-19
 
 https://interferencia.cl/articulos/multimillonarios-de-eeuu-se-han-vuelto-10-mas-ricos-durante-la-pandemia-de-covid-19
 
-## El coronavirus provoca una histórica caída de la actividad económica en la eurozona
+### El coronavirus provoca una histórica caída de la actividad económica en la eurozona
 
 https://elpais.com/economia/2020-03-24/el-coronavirus-colapsa-la-actividad-economica-en-marzo-segun-ihs-markit.html
+
+### Bill Gates and co preparando el terreno
+
+https://youtu.be/6Af6b_wyiwI
+
 
 # Recopilación de Fake News en medios oficiales
 
@@ -314,12 +348,12 @@ Puede una pandemia provocar disturbios segun factores claros como, denuncias a c
 
 Son los disturbios claramente vinculados a la presencia policial ? y el aumento de sus injustas acciones ?, el numero de multas y su concentracion en las areas de las protestas ? eso desciben en nature . (todo: añadir funciones en el simulador)
 
-A mathematical model of the London riots and their policing
+### A mathematical model of the London riots and their policing
 
 https://www.nature.com/articles/srep01303#Sec12
 
 
-Denuncias y arrestos vinculadas al estado de alarma
+### Denuncias y arrestos vinculadas al estado de alarma
 
 
 https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronavirus/2010719.shtml
@@ -331,7 +365,7 @@ https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronav
 martes 24 marzo 20 mil denuncias 130 arrestados
  
 
-Vídeo "Abusos Policiales en el Marco del Coronavirus"
+### "Abusos Policiales en el Marco del Coronavirus"
 
 https://youtu.be/FsYahlyihn8
 
