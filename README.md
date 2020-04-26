@@ -5,40 +5,63 @@ Grupo de Tarea Conjunta OSINT (Open-source Intelligence) para la investigación 
 Búsqueda de información y elaboración de hipótesis. Filtro de noticias y "fake-news". Investigación ciudadana crítica. Colaboración de código libre multidisciplinar.
 
 
-Evitemos distraer el hilo del grupo con noticias sensacionalistas o discusiones de opinión. Las conspiranoias (http://t.me/COVID19Cowspiranoias) y opiniones excéntricas pueden ayudar a romper la ortodoxia y el discurso dominante, pero no dejemos que el grupo derive hacia eso. La política es la gestión de los asuntos públicos por parte de los ciudadanos, pero evitemos politizar los debates en exceso y sobretodo, dentro de los paradigmas partidistas y seguidistas.
+Evitemos distraer el hilo del grupo con noticias sensacionalistas o discusiones de opinión. Las conspiranoias 
+ y opiniones excéntricas pueden ayudar a romper la ortodoxia y el discurso dominante, pero no dejemos que el grupo derive hacia eso. La política es la gestión de los asuntos públicos por parte de los ciudadanos, pero evitemos politizar los debates en exceso y sobretodo, dentro de los paradigmas partidistas y seguidistas.
+
+Para compartir información y opiniones en torno a teorias conspirativas tenemos el grupo específico:
+
+`http://t.me/COVID19Cowspiranoias`
+
+
 
 Salud !!
+
+
 
 Documento colaborativo: https://paper.komun.org/p/covid19-OSINT
 
 Dashboard Coronavirus COVID-19 (Mobile)
 https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61
 
-# Data source CSV
+# Herramientas OSINT
 
-https://github.com/CSSEGISandData/COVID-19
+## Repositorio de enlaces a herramientas OSINT:
+https://ciberpatrulla.com/links/
 
-# Herramienta analisis genetico ETE3 para trazar y analizar arboles de genomas
-
-https://github.com/etetoolkit/ete
-
-
-# Herramienta para crawlear fake news en los medios supuestamente serios
+## Herramienta para crawlear fake news en los medios supuestamente serios
 
 
 https://code.montera34.com/numeroteca/homepagex
 
 
+# Herramientas Data Analysis
 
-# Herramienta de analisis de datos de Covid 19
+### Dashboard Coronavirus COVID-19 (Mobile)
+
+Información verificada y de acceso público para acceder a datos acerca del virus:
+
+https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+https://nextstrain.org/
+
+
+## Data source CSV
+
+https://github.com/CSSEGISandData/COVID-19
+
+## Herramienta analisis genetico ETE3 para trazar y analizar arboles de genomas
+
+https://github.com/etetoolkit/ete
+
+
+## Herramienta de analisis de datos de Covid 19
 
 
 https://code.montera34.com/numeroteca/covid19
 
 
 
-# Herramienta de prediccion 
-
+## Herramienta de prediccion 
 
 
 
@@ -46,7 +69,7 @@ https://code.montera34.com/numeroteca/covid19
 
 
 
-# Uso 
+### Uso 
 
 Con el siguiente comando obtendriamos el plot del ejemplo .
 
@@ -65,12 +88,12 @@ https://www.redaccionmedica.com/secciones/sanidad-hoy/coronavirus-mortalidad-inf
 
 
 ````
-#Generate prediction
+### Generate prediction
 
 ./pandemia --contact_rate 2 --infected_rate 80 --recovered 8 --hospital 25 --danger 20 --dead 6 --cycles 24 --incubation 7
 
 
-#Help
+### Help
 
 ./pandemia --help
 
@@ -108,7 +131,7 @@ Mover el espacio con el cursor
 *Para windows usar el fichero pandemia.exe ejecutable.
 
 
-# Genome analysis 
+### Genome analysis 
 
 Genomic epidemiology of novel coronavirus
 
@@ -162,7 +185,7 @@ C4 Alignment:
 
 
 
-Resumen de comparacion de proteinas originales de sars2004 , y los diferentes virus de diferentes epocas descendientes de sars2004. Resultados obtenidos con el parametro --percent de exonerate.
+### Resumen de comparacion de proteinas originales de sars2004 , y los diferentes virus de diferentes epocas descendientes de sars2004. Resultados obtenidos con el parametro --percent de exonerate.
 
 
 
@@ -225,7 +248,7 @@ Covid contra Sars -> 38 % <--- Tiene mas de 2004 que de 2010 o 2015
 
 
 
-# Posible conclusion
+# Hipótesis alternativas
 
 
 En diferentes momentos del tiempo sars es reintroducido en la naturaleza, al menos alrededor de 2010 y 2013, donde un virus sin mutar vuelve a generar nuevas generaciones, Covid 19 y Batsars2020 son primos, pero ambos descienden de una especie de sars2004 no conocida. Existen escapes conocidos en la zona de Wuhan. 
@@ -269,9 +292,15 @@ https://www.mediterranee-infection.com/epidemie-a-coronavirus-covid-19/
 
 # Financiero 
 
-...
+## Multimillonarios de EEUU se han vuelto 10% más ricos durante la pandemia de Covid-19
 
-# Fake news medios respetables
+https://interferencia.cl/articulos/multimillonarios-de-eeuu-se-han-vuelto-10-mas-ricos-durante-la-pandemia-de-covid-19
+
+## El coronavirus provoca una histórica caída de la actividad económica en la eurozona
+
+https://elpais.com/economia/2020-03-24/el-coronavirus-colapsa-la-actividad-economica-en-marzo-segun-ihs-markit.html
+
+
 
 URL de El País desde enero hasta 25 de marzo 2020
 
@@ -491,7 +520,7 @@ Simó partidario de rebajar el miedo
 https://www.rtve.es/alacarta/audios/14-horas-fin-de-semana/14-horas-fin-semana-fernando-simo-partidario-rebajar-miedo-coronavirus-espana-solo-caso-bajo-control-sin-sintomas/54998
 
 
-# Riots
+# Represión y disturbios
 
 La situacion actual incrementa el numero de denuncias y abusos de autoridad, desabastecimiento, desinformación, abuso de poder, manipulacion de los medios causan la crispacion de los ciudadanos, pero cual es el momento que estallan y porque.
 
@@ -517,22 +546,14 @@ https://www.rtve.es/noticias/20200324/mas-102000-denuncias-932-detenidos-coronav
 martes 24 marzo 20 mil denuncias 130 arrestados
  
 
+Vídeo "Abusos Policiales en el Marco del Coronavirus"
 
-# Medidas de contingencia ante posible ataque terrorista del estado contra las libertades basicas de los ciudadanos.
-
-
-Existe el hipotetico caso de que una vez confiandas las personas , puedan sufrir cortes en la red, bien sea por sobre uso de la red que han vendido durante años fraudulentamente, o por orden del estado ejerciendo su actual maxima autoridad.
+https://youtu.be/FsYahlyihn8
 
 
-Existe la posibilidade que corten el internet cuando la gente intente organizarse por si mismo. Si esto ocurre nunca nadie podria organizarse ya que la via fisica estara cortada y la via telematica tambien, es por eso que los ciudadanos deberian tomar medidas contra esta hipotetica situacion. Y hacer un pacto ciudadano de salir a la calle masivamente si las medidas impuestas por el gobierno privan la capacidad comunicativa de sus ciudadanos.
 
 
-Propuestas :
-
-     Salir los dias 13 a la calle para organizarse en caso de que el gobierno corte la red, a las 17 en la plaza del ayuntamiento
-
-
-# Futuros posibles
+# Estimaciones
 
      - Un futuro donde hay vacuna antes o despues y nada de esto ha pasado y solo queda el rastro de desastres desencadenados y la conciencia social del problema de pandemia
 
@@ -548,7 +569,4 @@ Propuestas :
     EDITAR LO QUE SE OS OCURRA
      ...... 
 
-# Herramientas OSINT
 
-Repositorio de enlaces a herramientas OSINT:
-https://ciberpatrulla.com/links/
